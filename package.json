@@ -4,8 +4,7 @@
   "description": "Function to check if charge point next to the house is occupied",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp build & gulp watch & gulp serve",
-    "build": "gulp build & yarn run build:functions",
+    "build": "yarn run build:functions",
     "build:functions": "netlify-lambda build src/lambda"
   },
   "keywords": [],
