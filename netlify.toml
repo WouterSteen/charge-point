@@ -1,3 +1,4 @@
 [build]
   functions = "charge-point"
-
+  command = "yarn build"
+  publish = "dist"
