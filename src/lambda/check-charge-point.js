@@ -21,15 +21,15 @@ export function handler(event, context, callback) {
         });
 
         let returnMessage = 'Alles bezet, zoek een andere met oplaadpalen.nl';
-        if (spotResults[2].available === 1) {
+        if (spotResults[2].available > 0) {
             returnMessage = 'Kloten, ga naar Engelse Park';
         }
 
-        if (spotResults[1].available === 1) {
+        if (spotResults[1].available > 0) {
             returnMessage = 'Argh, ga naar einde Coendersweg';
         }
 
-        if (spotResults[0].available === 1) {
+        if (spotResults[0].available > 0) {
             returnMessage = "Go Go Go. De beste is vrij!";
         }
 
