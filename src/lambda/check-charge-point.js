@@ -3,10 +3,12 @@
 var axios = require("axios");
 
 export function handler(event, context, callback) {
-
+    // 1 BESTE
+    // 2 EINDE COENDERSWEG
+    // 3 BEGIN COENDERSWEG
   const spotUrls = ['https://www.oplaadpalen.nl/api/maplist/clusterset?box=53.19767480278687,6.583232581615448,53.19902288146508,6.585383713245393&zoom=19&accessType=public,company&available=available,charging&power=fast,normal',
     'https://www.oplaadpalen.nl/api/maplist/clusterset?box=53.19767480278687,6.583232581615448,53.19902288146508,6.585383713245393&zoom=19&accessType=public,company&available=available,charging&power=fast,normal',
-    'https://www.oplaadpalen.nl/api/maplist/clusterset?box=53.19767480278687,6.583232581615448,53.19902288146508,6.585383713245393&zoom=19&accessType=public,company&available=available,charging&power=fast,normal'
+    'https://oplaadpalen.nl/api/maplist/clusterset?box=53.200036736713066,6.5796464681625375,53.20273270311305,6.583948731422424&zoom=18&accessType=public,company&available=available,charging&power=fast,normal'
   ];
 
 
