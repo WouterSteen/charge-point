@@ -5,7 +5,9 @@
   "main": "gulpfile.js",
   "scripts": {
     "build": "yarn run build:functions",
-    "build:functions": "netlify-lambda build src/lambda"
+    "dev": "yarn run serve:functions",
+    "build:functions": "netlify-lambda build src/lambda",
+    "serve:functions": "netlify-lambda serve src/lambda"
   },
   "keywords": [],
   "author": "",
